@@ -1,26 +1,22 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Quizz</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <aside class="side-menu">
+        <ul id="menu"></ul>
+    </aside>
 
-  <aside class="side-menu">
-    <ul>
-      <li>Question 1</li>
-      <li>Question 2</li>
-      <li>Question 3</li>
-    </ul>
-  </aside>
+    <main class="quiz-panel">
+        <h2 id="question">Question loading...</h2>
+        <div id="answers"></div>
+        <button id="next">Next</button>
+    </main>
 
-  <main class="quiz-panel">
-    <h2 id="question">Question will be here</h2>
-    <div id="answers"></div>
-    <button id="next">Next</button>
-  </main>
-
-  <script src="main.js"></script>
+    <script src="assets/js/quizz.js"></script>
 </body>
 </html>
