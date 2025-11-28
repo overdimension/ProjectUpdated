@@ -17,25 +17,25 @@ It uses plain HTML, CSS, and JavaScript, with no backend required. Quizzes are d
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
+```text
 project/
-├── index.html
-├── quiz.html
-├── result.html
+├── index.html         # Main page (quiz selection)
+├── quiz.html          # Quiz page
+├── result.html        # Result page
 ├── quizzes/
-│   └── quizzes.json
+│   └── quizzes.json   # Quiz data
 ├── assets/
 │   ├── css/
-│   │   ├── main.css
-│   │   ├── quiz.css
-│   │   └── result.css
+│   │   ├── main.css    # Styles for main page
+│   │   ├── quiz.css    # Styles for quiz page
+│   │   └── result.css  # Styles for result page
 │   ├── js/
-│   │   ├── main.js
-│   │   ├── quiz.js
-│   │   └── result.js
-
-
+│   │   ├── main.js     # Main page JS
+│   │   ├── quiz.js     # Quiz page JS
+│   │   └── result.js   # Result page JS
+```
 
 ## 🚀 How to Run
 
@@ -45,3 +45,4 @@ project/
 4. After completing the quiz, your score will appear on the result page  
 
 5. Click **Return to Main Page** to choose another quiz  
+
