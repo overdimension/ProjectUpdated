@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <title>Main page</title>
-  <link rel="stylesheet" href="mainstyle.css">
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <link rel="stylesheet" href="assets/css/mainstyle.css">
 </head>
+
 <body>
-  <h1>Choose quizz</h1>
+    <h1>Choose Quiz</h1>
 
-  <div class="menu">
-    <button class="quiz-btn" data-link="quiz.html?quiz=1">Quizz 1</button>
-    <button class="quiz-btn" data-link="quiz.html?quiz=2">Quizz 2</button>
-    <button class="quiz-btn" data-link="quiz.html?quiz=3">Quizz 3</button>
-  </div>
+    <div class="menu">
+        <button class="quiz-btn" data-quiz="1">Quiz 1</button>
+        <button class="quiz-btn" data-quiz="2">Quiz 2</button>
+        <button class="quiz-btn" data-quiz="3">Quiz 3</button>
+    </div>
 
-  <script>
-    let buttons = document.querySelectorAll(".quiz-btn");
-    for (let i = 0; i < buttons.length; i++) {
-      buttons[i].onclick = function() {
-        let link = buttons[i].getAttribute("data-link");
-        window.location.href = link;
-      };
-    }
-  </script>
-
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

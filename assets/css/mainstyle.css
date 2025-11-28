@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #66db8d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 80px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quiz-btn {
+    background: white;
+    color: #333;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 250px;
+}
+
+.quiz-btn:hover {
+    background: #e8f5e9;
+    transform: scale(1.05);
+}
